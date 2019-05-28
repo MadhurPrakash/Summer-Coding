@@ -1,0 +1,12 @@
+1:git branch -a
+2:git branch -d <branchname>
+3:git branch <brachname>;git checkout <branchname>
+4:git branch -a
+5:git merge <branchname>
+6:git stash is place to keep the changes in a file as temporary and work on unchanged file.git stash save "message"
+7:git shortlog
+8:git diff
+9:SSH, also known as Secure Shell or Secure Socket Shell, is a network protocol that gives users, particularly system administrators, a secure way to access a computer over an unsecured network.
+  While cloning, with https we need to provide username and password and with SSH, SSH key passphrase is required.
+10:git reset hard Resets the index and working tree. Any changes to tracked files in the working tree since <commit> are discarded. 
+   git reset soft Does not touch the index file or the working tree at all (but resets the head to <commit>, just like all modes do). This leaves all your changed files "Changes to be committed", as git status would put it.
